@@ -1,8 +1,11 @@
 import React from 'react'
+import CustomButton from '../../components/Button/CustomButton'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+        <CustomButton message="Comprar" />
+    </div>
   )
 }
 
